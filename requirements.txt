@@ -1,0 +1,21 @@
+# Core data processing
+pandas
+numpy>=1.21.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Configuration and parameters
+pyyaml>=5.4.0
+
+# Data Version Control
+dvc>=2.0.0
+dvclive>=0.15.0
+
+# Natural Language Processing
+nltk>=3.7.0
+
+# Data visualization (for experiments/notebooks)
+matplotlib>=3.5.0
+wordcloud>=1.8.0
+
