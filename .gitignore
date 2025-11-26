@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# MLOps / DVC specific
+# Data directories (as per project_flow step 3)
+data/
+models/
+reports/
+
+# DVC
+.dvc/cache/
+.dvc/tmp/
+dvclive/
+
+# ZenML virtual environments
+.zenml_*/
+.zenml_dvc/
+
+# DVC lock file should be tracked, but cache should not
+# .dvc.lock is tracked by default
